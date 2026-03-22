@@ -19,7 +19,8 @@ pipeline {
                 withSonarQubeEnv(installationName: 'sonar', credentialsId: 'sonar-token') {
                  sh '''
                     cd FlightReservationApplication
-                    mvn sonar:sonar -Dsonar.projectKey=flight-reservation
+                    mvn sonar:sonar -Dsonar.projectKey=Flight-Reservation
+
                  '''
                 }
             }
