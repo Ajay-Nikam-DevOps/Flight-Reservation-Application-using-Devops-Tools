@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Code-Pull'){
             steps{
-                git branch: 'main', url: 'https://github.com/mayurmwagh/flight-reservation-app.git'    
+                git branch: 'main', url: 'https://github.com/HritikBuwa/Flight-Reservation-Application-using-Devops-Tools.git'    
             }
         }
         stage('Code-Build'){
@@ -28,9 +28,9 @@ pipeline {
             steps{
                 sh '''
                     cd FlightReservationApplication
-                    docker build -t mayurwagh/flight-reservation-pls-18:latest . 
-                    docker push mayurwagh/flight-reservation-pls-18:latest 
-                    docker rmi mayurwagh/flight-reservation-pls-18:latest 
+                    docker build -t hritikbuwa/flightreservationapplication:latest . 
+                    docker push hritikbuwa/flightreservationapplication:latest 
+                    docker rmi hritikbuwa/flightreservationapplication:latest 
                 '''
             }
         }
