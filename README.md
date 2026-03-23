@@ -187,13 +187,7 @@ Complete the setup wizard and install **Suggested Plugins**.
 Go to **Manage Jenkins → Plugins → Available** and install:
 
 - SonarQube Scanner
-- SonarQube Quality Gates
-- Docker Pipeline
-- Docker Commons Plugin
-- NodeJS Plugin
-- AWS Credentials
 - Pipeline Stage View
-- Kubernetes CLI
 
 Restart Jenkins after installation.
 
