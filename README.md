@@ -8,7 +8,7 @@ A step-by-step guide to deploy the Flight Reservation app (Backend on EKS + Fron
 
 | Repo | Purpose |
 |------|---------|
-| `-Flight-Reservation-Application-using-Devops-Tools-modules or cbz-three-tier-infra` | Terraform — creates AWS infra (EKS, RDS, S3) |
+| `Flight-Reservation-Application-using-Devops-Tools-modules or cbz-three-tier-infra` | Terraform — creates AWS infra (EKS, RDS, S3) |
 | `Flight-Reservation-Application-using-Devops-Tools` | App code — Backend (Spring Boot) + Frontend (React) + Jenkins pipelines |
 
 ---
